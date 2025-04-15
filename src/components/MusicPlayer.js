@@ -68,7 +68,8 @@ export default function MusicPlayer() {
     if (!selectedSong || !audioRef.current) return;
   
     const audioElement = audioRef.current;
-    const audioURL = `http://127.0.0.1:5000/audio?id=${selectedSong.id}`;
+    const audioURL = `https://app-py-va5r.onrender.com/audio?id=${selectedSong.id}`;
+
   
     setIsLoading(true);
     setIsPlaying(false);
