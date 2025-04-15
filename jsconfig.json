@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",  // Sets the base directory for resolving non-relative paths
+    "paths": {
+      "@/*": ["src/*"]  // Defines the alias for the src directory
+    }
+  }
+}
